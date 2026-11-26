@@ -12,21 +12,60 @@ To create a 3Dmodel from the given isometric drawing using fusion 360 tool.
 
 ## PROCEDURE
 
-1. Open Autodesk Fusion and create a new design.
-2. Select the XY Plane and create a new sketch.
-3. Draw a rectangle to form the main body of the model using the dimensions provided in the engineering drawing.
-4. Finish the sketch and use the Extrude command to create the main solid block.
-5. Select the front face of the block and create a new sketch.
-6. Draw a circle of 50 mm diameter (Ø50) at the specified position.
-7. Finish the sketch and extrude the circle outward to create the cylindrical projection.
-8. Select the top face and create a new sketch.
-9. Draw a 10 mm square and extrude it upward to form the small rectangular projection.
-10. Create another sketch on the top face and draw the profile of the central raised portion with a width of 30 mm.
-11. Extrude the profile and form the inclined surface according to the engineering drawing.
-12. Create a circular sketch of 20 mm diameter (Ø20) on the right side of the top face.
-13. Extrude the circle upward to create the cylindrical projection.
-14. Verify the completed model with the given orthographic and isometric views.
-15. Adjust the model to an isometric view and save the completed design.
+### STEP-1:  Start the sketch command
+
+   Select Sketch > Create Sketch.
+
+ ### STEP-2:  Select the Sketch Plane
+
+   Select the Front (XZ) Plane
+
+### STEP-3: Create a Rectangle 
+
+   1.	Select Sketch > Rectangle > Center Rectangle.
+   2.	Now hover over the origin (center) of the sketch. You should see the cursor snap to this location.
+   3.	Click once to begin placing the rectangle.
+   4.	Type the Tab button and enter the values 100 mm and 60mm for the width and height respectively.
+   5.	Click again to place the rectangle.
+   6.	Click Finish Sketch after completing.
+
+ ### STEP-4: Extrude Rectangle in XZ Plane
+   1.	Select Extrude.
+   2.	Select the Rectangle sketch.
+   3.	Click again to place the value.
+   4.	Type in the value of 30mm. 
+   5.	Press ENTER to accept the value.
+
+ ### STEP-5:  Start the sketch command
+   Select Sketch > Create Sketch.
+ ### STEP-6: Select the Sketch Plane
+   Select the FRON SURFACE of rectangular block 
+ ### STEP-7: Create a CIRCLE 
+   1.	Select Sketch >CIRCLE  > CENTER CIRCLE.
+   2.	Now hover over the origin (center) of the sketch. You should see the cursor snap to this location.
+   3.	Click once to begin placing the CIRCLE.
+   4.	Type the Tab button and enter the value DIA 100mm .
+   5.	Click again to place the circle.
+   6.	Click Finish Sketch after completing.
+
+ ### STEP-8:  Extrude CIRCLE 
+   1.	Select Extrude.
+   2.	Select the Rectangle sketch.
+   3.	Click again to place the value.
+   4.	Type in the value of 20mm. 
+   5.	Press ENTER to accept the value.
+
+ ### STEP-9: Start the sketch command
+   Select Sketch > Create Sketch.
+   
+ ### STEP-10: Select the Sketch Plane
+   Select the TOP SURFACE OF RECTANGLE.
+   
+### STEP-11: Create a line
+1.Select Line command.
+2. Draw the projections in the diagram 
+3. Click Finish Sketch.
+4. extrude the sketch.
 
 
 ## INPUT
